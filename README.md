@@ -1,39 +1,43 @@
-# TFM Ciberseguridad
+# Cybersecurity Master's Project · Lab Resources
 
-Repositorio de apoyo académico para el Trabajo de Fin de Máster en Ciberseguridad. Recoge el entorno de laboratorio, las herramientas de auditoría y los recursos técnicos de referencia.
+Academic support repository for a Master's thesis in Cybersecurity. It documents a virtual lab environment, security assessment tools and technical reference material.
 
-## Entorno de laboratorio
+<p align="center">
+  <a href="https://github.com/tzayadet/TFM-Ciberseguridad"><img src="https://img.shields.io/badge/SOURCE-GITHUB-161b22?style=flat-square&logo=github" alt="Source"></a>
+</p>
 
-| Componente | Uso |
+## Lab environment
+
+| Component | Purpose |
 |---|---|
-| [Ubuntu Desktop](https://ubuntu.com/download/desktop) | Entorno gráfico para pruebas y análisis. |
-| [Ubuntu Server](https://ubuntu.com/download/server) | Servicios y sistemas de laboratorio. |
-| [VirtualBox](https://www.virtualbox.org/wiki/Downloads) | Virtualización y aislamiento de máquinas de prueba. |
+| [Ubuntu Desktop](https://ubuntu.com/download/desktop) | Graphical environment for testing and analysis |
+| [Ubuntu Server](https://ubuntu.com/download/server) | Lab services and server workloads |
+| [VirtualBox](https://www.virtualbox.org/wiki/Downloads) | Virtualisation and isolation of test machines |
 
-## Herramientas de seguridad
+## Security tools
 
-- [Lynis](https://github.com/CISOfy/lynis) · Auditoría de configuración y hardening en sistemas Unix/Linux.
-- [OpenVAS Scanner](https://github.com/greenbone/openvas-scanner) · Componente de escaneo de vulnerabilidades del ecosistema Greenbone.
-- [Greenbone Community Documentation](https://greenbone.github.io/docs/) · Instalación, configuración y operación de Greenbone.
+- [Lynis](https://github.com/CISOfy/lynis) for Unix/Linux configuration auditing and hardening.
+- [OpenVAS Scanner](https://github.com/greenbone/openvas-scanner) as part of the Greenbone vulnerability management ecosystem.
+- [Greenbone Community Documentation](https://greenbone.github.io/docs/) for installation, configuration and operation.
 
-## Documentación oficial
+## Official documentation
 
 - [Ubuntu Tutorials](https://ubuntu.com/tutorials)
 - [Lynis Documentation](https://cisofy.com/lynis/)
 - [Greenbone Documentation](https://greenbone.github.io/docs/)
 - [VirtualBox User Manual](https://www.virtualbox.org/manual/)
 
-## Recomendaciones de laboratorio
+## Lab practices
 
-- Utiliza máquinas virtuales aisladas y snapshots antes de realizar cambios.
-- Actualiza las herramientas desde sus fuentes oficiales.
-- Ejecuta auditorías y escaneos únicamente sobre sistemas propios o con autorización expresa.
-- Registra versiones, configuración y resultados para que las pruebas sean reproducibles.
+- Use isolated virtual machines and snapshots before making changes.
+- Obtain tools from their official sources and keep track of versions.
+- Run audits and scans only on systems you own or are explicitly authorised to assess.
+- Record configuration, versions and results so that tests can be reproduced.
 
-## Alcance
+## Scope
 
-Repositorio de apoyo académico y documentación. No sustituye la memoria completa del TFM ni acredita por sí solo la ejecución de todas las herramientas.
+This is an academic reference and lab-support repository. It does not replace the full Master's thesis report and does not, by itself, demonstrate that every listed tool was executed.
 
-## Licencia
+## License
 
-Consulta [LICENSE](LICENSE).
+See [LICENSE](LICENSE) for the repository's licensing terms.
